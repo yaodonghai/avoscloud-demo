@@ -1,24 +1,23 @@
-# AVOSCloud iOS Demo
-###### 这个项目是为了帮助使用AVOSCloud的开发者, 尽快的熟悉和使用SDK而建立的, 包含了各种基础和高级用法.
+## 介绍
+这个示例项目是为了帮助使用AVOSCloud的开发者, 尽快的熟悉和使用SDK而建立的。主要展示AVOSCloud SDK的各种基础和高级用法.
 
-## 安装Frameworks
+## 如何运行
 
-### * 自动安装
+1. 用XCode打开AVOSDemo.xcodeproj，选择运行的scheme和设备，点击运行按钮或菜单`Product`->`Run`或快捷键`Command(⌘)`+`r`就可以运行此示例
 
-Demo采用`cocoapods`安装AVOSCloud的相关Frameworks, 方法非常简单, 用终端在本文件夹执行代码:
+2. 如果你想获取最新发布的SDK，你也可以使用`cocoapods`,将`Frameworks`目录下的文件删除，然后在终端执行代码:
 
-	pod install
-	
-不出问题的话 1分钟即可完成所有设置, 并在文件夹中生成文件名为`AVOSDemo.xcworkspace` 打开这个文件,就可以运行Demo了
+	    pod install
 
-
-### * 手动安装
-
-请参考 [https://cn.avoscloud.com/start.html](https://cn.avoscloud.com/start.html)
+    不出问题的话 1分钟即可完成所有设置, 并生成名为`AVOSDemo.xcworkspace`的Xcode工作空间，用Xcode打开它，按第1种介绍的方法运行即可
 
 ----
 
 ## 使用说明
+
+### * 替换 App 信息
+
+示例使用的是公共的 app id 和 app key，您可以在`AppDelegate.m`修改成您自己的应用 id 和 key。
 
 ### * 查看源码
 您可以在Xcode中看到本项目的所有代码. 也可以在App运行和操作中更直观的查看.
