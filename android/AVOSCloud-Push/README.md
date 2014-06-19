@@ -17,4 +17,4 @@
 
 ## 替换 App 信息
 
-Demo 使用的是公共的 app id 和 app key，您可以在`om.avos.avoscloud.PushDemo.PushDemoApp`修改成您自己的应用 id 和 key。
+Demo 使用的是公共的 app id 和 app key，您可以在`com.avos.avoscloud.PushDemo.PushDemoApp`修改成您自己的应用 id 和 key。
